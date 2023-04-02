@@ -2,7 +2,7 @@ const trafficLightEls = document.querySelectorAll('.trafficLight');
 
 function makeBlack() {
     for (let i = 0; i < trafficLightEls.length; i++) {
-        trafficLightEls[i].style.background = ('black');
+        trafficLightEls[i].style.background = ('');
     }
 }
 
